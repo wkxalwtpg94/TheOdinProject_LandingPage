@@ -1,17 +1,24 @@
 * {
-    background-color: #1F2937;
+    
     font-family: "Roboto", sans-serif;
+    border: 1px solid red;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
 
+}
 
 .header {
-    padding-left: 10vw;
-    padding-right: 2vw;
+    padding-left: 15vw;
+    padding-right: 15vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color:#1F2937 ;
+    margin-top: 10px;
     
     
 
@@ -40,4 +47,60 @@ ul {
 a {
     text-decoration: none;
     color: #E5E7EB;
+    font-size: 18px;
+}
+
+.firstbody{
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 80px;
+    padding-left: 15vw;
+    padding-right:15vw;
+    
+
+
+}
+
+.firstbodyleft {
+    width: 470px;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    gap:17px;
+}
+
+.firstbodyright {
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(211, 211, 211, 0.534);
+    color: white;
+    
+    margin-left: auto;
+    
+}
+
+.placeholdertext {
+    background-color:rgba(211, 211, 211, 0.534) ;
+}
+
+.heromain{
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.herosecondary {
+    color:#E5E7EB;
+    font-size: 18px;
+}
+
+button{
+    padding: 8px 40px;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 13px;
 }
